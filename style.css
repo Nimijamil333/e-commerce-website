@@ -1,0 +1,90 @@
+.navbar{
+    background-color:coral;
+}
+.nav-link{
+    color: darkgreen;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    
+}
+table{
+    position: absolute;
+    top: 20%;
+    left:15%;
+    right: 0%;
+    height: max-content;
+    width:80%;
+    
+}
+#carouselExampleCaptions{
+    position: absolute;
+    top: 13%;
+    left:15%;
+    right: 0%;
+    height: 60%;
+    width: 85%;
+    display: flex;
+
+}
+#alert{
+    position: absolute;
+    top: 68%;
+    left: 15%;
+    width:80%;
+    
+}
+#pic{
+    position: absolute;
+    
+    left: 15%;
+}
+
+@media only screen and ( max-width : 700px){
+    .nav-link{
+        font-size: xx-small;
+    }
+}
+@media only screen and ( min-width : 1044px){
+    .nav-link{
+        font-size: x-large;
+    }
+}
+@media only screen and ( max-width : 1090px){
+    #a{
+        font-size: smaller;
+    }
+}
+@media only screen and ( max-width : 1075px){
+    #a{
+        font-size: x-small;
+    }
+}
+@media only screen and (max-width : 870px){
+
+
+#carouselExampleCaptions{
+    position: absolute;
+    top: 18%;
+    left:15%;
+    right: 0%;
+    height: 60%;
+    width: 85%;
+    display: flex;
+
+}
+}
+@media only screen and (max-width : 739px){
+
+
+    #carouselExampleCaptions{
+        position: absolute;
+        top: 23%;
+        left:15%;
+        right: 0%;
+        height: 60%;
+        width: 85%;
+        display: flex;
+    
+    }
+    }
